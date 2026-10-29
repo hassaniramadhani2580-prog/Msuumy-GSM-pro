@@ -1,7 +1,11 @@
+
 [app]
 
 # (str) Title of your application
 title = MSSUMY GSM PRO
+
+# (str) Version of the application
+version = 6.0
 
 # (str) Package name
 package.name = mssumygsmpro
@@ -16,7 +20,6 @@ source.include_exts = py,png,jpg,kv,atlas
 source.dir = .
 
 # (list) Application requirements
-# comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,kivy,pyusb
 
 # (str) Supported orientations
@@ -43,7 +46,7 @@ android.ndk = 25b
 # (bool) Automatically accept Android SDK license
 android.accept_sdk_license = True
 
-# (list) The android archs to build for,, choices: armeabi-v7a, arm64-v8a, x86, x86_64
+# (list) The android archs to build for
 android.archs = arm64-v8a, armeabi-v7a
 
 [buildozer]
